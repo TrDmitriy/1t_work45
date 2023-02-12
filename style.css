@@ -1,0 +1,222 @@
+header {
+    background-color: rgb(97, 3, 47);
+    display: flex;
+    margin: 0;
+    color: rgb(243, 237, 237);
+}
+
+/*не забудь gap*/
+
+.img {
+    border-radius: 50%;
+
+}
+
+h2 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    margin-left: 45px;
+}
+
+h3 {
+    justify-content: center;
+    display: flex;
+    margin-right: 340px;
+}
+
+.header-text {
+    text-align: right;
+    align-items: center;
+    margin-top: 110px;
+    padding-left: 10px;
+    flex-direction: column;
+
+}
+
+.header-text2 {
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+
+main {
+    background-color: rgb(241, 241, 247);
+    color: rgb(22, 21, 21);
+    padding: 30px;
+}
+
+.obj {
+    justify-content: flex-start;
+}
+
+.gold {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+
+}
+
+.time-ex {
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    width: 110px;
+    margin-left: 83px;
+
+}
+
+.inf-ex {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 125px;
+}
+
+.inf-ex1 {
+    margin-left: 125px;
+}
+
+.text {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+
+
+.text-pos {
+    flex-direction: column;
+    justify-content: end;
+    display: flexbox;
+}
+
+.form-cont {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 130px;
+    margin: 16px;
+
+}
+
+section {
+    background-color: rgb(241, 241, 247);
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+button {
+    display: flex;
+    background-color: rgb(231, 202, 192);
+    color: rgba(0, 0, 0, 0.856);
+    border-color: rgb(5, 76, 104);
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer {
+    background-color: rgb(231, 202, 192);
+    padding: 20px;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
+    
+}
+textarea{
+    background-color: rgb(231, 202, 192);
+    color: rgb(0, 0, 0);
+    resize: none;
+    width: 736px;
+    border: 5px solid #BEB1AE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #E5D6D2;
+    font-weight: bold
+}
+
+.skills {
+    margin-left: 70px;
+    margin-right: 70px
+}
+
+.list {
+    list-style: square;
+    margin-left: 55px;
+    margin-right: 55px
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-cont1 {
+    background-color: rgb(97, 3, 47);
+    margin: 0 auto;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.name-mail {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.input{
+    border: 5px solid #BEB1AE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(231, 202, 192);
+    width: 366px;
+}
+
+.form-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    width: 70px;
+}
+
+.pos-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.inp-pos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.con-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 35px;
+
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(240, 248, 255, 0.329);
+    margin-top: 35px;
+}
+
+a {
+    color: aliceblue;
+}
+
